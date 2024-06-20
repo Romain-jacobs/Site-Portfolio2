@@ -1,0 +1,393 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.h2 {
+    margin-bottom: 15px;
+    color: #ff0400;
+    transition: 0.4s;
+}
+
+.h21 {
+    margin-bottom: 15px;
+    color: #ff0400;
+    transition: 0.4s;
+}
+
+.h22 {
+    margin-bottom: 15px;
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+:hover.h2 {
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+:hover.h21 {
+    transition: 0.4s;
+    text-decoration: underline;
+}
+
+.color {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.pol {
+    transition: 0.4s;
+    border-radius: 5px;
+    margin: 15px;
+}
+
+span {
+    color: #ff0400;
+}
+
+.text1 {
+    text-align: start;
+    margin: 10px;
+}
+
+.text {
+    text-align: start;
+}
+
+:hover.pol {
+    background-color: #9d0101;
+    transition: 0.4s;
+    transform: scale(1.1, 1.1);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #c2c2c2;
+    color: #333;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.flex2 {
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    display: grid;
+    flex-wrap: wrap;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.linkedin {
+    width: 90px;
+    transition: 0.4s;
+    margin: 10px;
+}
+
+.contact {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px;
+    background-color: #ff0400;
+    transition: 0.4s;
+    border-radius: 10px;
+    width: auto;
+}
+
+:hover.contact {
+    transition: 0.4s;
+    transform: scale(1.1, 1.1);
+    background-color: #9d0101;
+}
+
+:hover.linkedin {
+    transition: 0.4s;
+    transform: scale(1.1, 1.1);
+}
+
+
+.flex4 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 5px;
+    grid-template-columns: 500px 500px;
+}
+
+.img {
+    width: 10%;
+}
+
+.imgenca {
+    padding: 10px;
+    background-color: #202020;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    display: flex;
+    transition: 0.3s;
+    width: 800px;
+    color: aliceblue;
+    filter: drop-shadow(5px 0.1px 6.900000095367432px #5f0000);
+    animation: move 4s infinite;
+    position: relative;
+}
+
+.enca {
+    padding: 10px;
+    background-color: #202020;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    transition: 0.3s;
+    width: auto;
+    color: aliceblue;
+    animation: move 4s infinite;
+    position: relative;
+    align-items: center;
+}
+
+@keyframes move {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 13px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+:hover.imgenca {
+    background-color: #980101;
+}
+
+:hover.enca {
+    background-color: #4e4e4e;
+}
+
+.lol {
+    animation: remove 4s infinite;
+    position: relative;
+}
+
+@keyframes remove {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 10px;
+    }
+
+    100% {
+        top: 0px;
+    }
+}
+
+.buton {
+    background-color: #ff2a00;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 10px auto;
+    color: aliceblue;
+    transition: 0.4s;
+}
+
+:hover.buton {
+    background-color: #5f0000;
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+}
+
+
+.buton1 {
+    border: #ff0400 solid 2px;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 10px auto;
+    color:#ff0400;
+    transition: 0.4s;
+}
+
+.buton2 {
+    border: #ff0400 solid 2px;
+    border-radius: 18px;
+    padding: 10px;
+    margin: 10px auto;
+    color:#ff0400;
+    transition: 0.4s;
+}
+
+iframe{
+    width: auto%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+:hover.buton1 {
+    background-color: #5f0000;
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+    border: none;
+    color: aliceblue;
+}
+
+:hover.buton2 {
+    background-color: #5f0000;
+    transform: scale(1.1, 1.1);
+    transition: 0.4s;
+    border: none;
+    color: aliceblue;
+}
+
+.img1 {
+    width: 30%;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+
+.header {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #202020;
+    color: #fff;
+    padding: 10px 0;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.project {
+    background: #202020;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.4s ease;
+    color: aliceblue;
+}
+
+.textdecoration {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    background-color: #980101;
+    transition: 0.4s;
+}
+
+.project img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.carousel-container {
+    width: 40%;
+    overflow: hidden;
+    margin: 50px;
+    border-radius: 22px;
+}
+
+.image{
+    width: 100%;
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-container1 {
+    width: 70%;
+    overflow: hidden;
+    margin: 50px;
+    border-radius: 22px;
+}
+
+.carousel1 {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel2 {
+    display: flex;
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
